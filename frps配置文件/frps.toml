@@ -1,0 +1,9 @@
+bindAddr = "127.0.0.1"
+bindPort = 7000
+
+auth.method = "token"
+auth.token = "wolvezb2002"
+
+transport.useCompression = true
+
+# docker run --restart=unless-stopped --network host -d -v /root/abys/frp/frps.toml:/etc/frp/frps.toml --name frps snowdreamtech/frps
